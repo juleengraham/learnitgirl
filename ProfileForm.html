@@ -1,0 +1,81 @@
+<!DOCTYPE html> 
+<html>
+	<head>
+		<title>TechDiversity - Purpose</title>
+		<link rel="stylesheet" type="text/css" href="TechDiversity.css">
+		<script src="headerfooter.js"></script>
+
+	</head>	
+	<body>
+		<header><img src="logo.jpg" alt="TechDiversity" </header>
+		<div> 
+		<div class="diversity">
+			<img src="Diversity.jpg" alt="banner photo">
+			<h4>Striving for a more diverse tech industry!</h4>
+		</div>
+
+		<ul class="nav">
+			<li><a href="Homepage.html">Home</a></li>
+			<li><a href="Purpose.html">Purpose</a></li>
+			<li><a href="OppFeed.html">Opportunity Feed</a></li>
+			<li><a href="ProfileForm.html">Mailing List</a></li>
+			<li><a href="Contact_Page.html">Contact Us</a></li>
+		</ul>
+
+		<br/>
+		<form action="mailinglist.php" method="post">
+	</head>
+
+	<body>
+		<form action="/" method="POST">
+			<fieldset>
+				<legend>Basic info</legend>
+				<br/>
+				First Name: <input type="text" id="firstName">
+				<br/><br/>
+				Last Name: <input type="text" id="lastName">
+				<br/><br/>
+				Email: <input type="text" id="email">
+				<br/><br/>
+				Date of Birth: <input type="date" id="dob">
+				<br/><br/>
+				<input type="submit" value="Save">
+			</fieldset>
+			
+			<fieldset>
+				<legend>Education</legend>
+				<br/>
+				What is your highest completed level of education? 
+				<div><br>
+					<input type="radio" name="group1" value="Milk"> Some high school<br>
+					<input type="radio" name="group1" value="Butter" checked> Completed high school<br>
+					<input type="radio" name="group1" value="Cheese"> Some college
+					<br>
+					<input type="radio" name="group1" value="Water"> Associate degree<br>
+					<input type="radio" name="group1" value="Beer"> Bachelor degree<br>
+					<input type="radio" name="group1" value="Wine" checked> Advance degree<br>
+				</div>
+				<br/>
+				If currently in college, what is your expected graduation date? <input type="date" id="gradDate">
+				<br/><br/>
+				<input type="submit" value="Save">
+			</fieldset>
+			
+			<fieldset>
+				<legend>The following are underrepresented groups in technology. </legend>
+				Check all the groups to which you belong. 
+				<br/><br/>
+				<input type="checkbox" name="category" value="Women"> Women
+				<br/>
+				<input type="checkbox" name="category" value="POC"> People of Color
+				<br/>
+				<input type="checkbox" name="category" value="PWD"> People with Disabilities
+				<br/>
+				<input type="checkbox" name="category" value="LGBTQ"> LGBTQ Community Members
+				<br/><br/>
+				<input type="submit" value="Save">
+			</fieldset>
+		</form>
+
+	</body>
+</html>
